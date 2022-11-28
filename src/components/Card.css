@@ -1,0 +1,78 @@
+.card {
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 600px;
+  box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+}
+.images {
+  width: 400px;
+}
+.title {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.price {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: 30px;
+}
+.info_button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  margin-left: 275px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.info_button:hover {
+  border: 1px solid rgb(0, 166, 255);
+  color: rgb(0, 166, 255);
+}
+
+hr {
+  width: 350px;
+}
+.description {
+text-align: center;
+}
+.cart_button {
+  box-sizing: content-box;
+  border: none;
+  border-radius: 3px;
+  background-color: green;
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+.cart_button_delete {
+  box-sizing: content-box;
+  border: none;
+  border-radius: 3px;
+  
+  background-color: rgba(0, 128, 0, 0.419);
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.cart-delete {
+  font-size: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: red;
+text-decoration: underline;
+}
